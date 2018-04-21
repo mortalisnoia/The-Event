@@ -21,7 +21,7 @@ import com.algaworks.patrimonio.model.Item;
 import com.algaworks.patrimonio.repository.ItemRepository;
 
 @RestController
-//@CrossOrigin("${origem-permitida}")
+@CrossOrigin("${origem-permitida}")
 public class ItemResource {
 	
 	@Autowired
